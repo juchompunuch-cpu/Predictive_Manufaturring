@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+title: "Manufacturing Defect Prediction Data Engineering Pipeline"
+type: software
+authors:
+  - name: "ชมพูนุช สุนทรพจน์"
+    alias: "juchompunuch-cpu"
+repository-code: "https://github.com/juchompunuch-cpu/Predictive_Manufaturring"
+license: MIT
+date-released: "2026-10-31"
+references:
+  - type: data
+    title: "Predicting Manufacturing Defects Dataset"
+    url: "https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset"
+    authors:
+      - name: "rabieelkharoua (Kaggle)"
+keywords:
+  - Data Engineering
+  - ETL
+  - Medallion Architecture
+  - Databricks
+  - Delta Lake
+  - PostgreSQL
+  - Lakebase
+  - Data Quality
+  - Business Intelligence
+abstract: >-
+  Course project for 05177012 Data Architecture & Data Engineering (KMITL K-DAI, semester 1/2569).
+  An automated Bronze-Silver-Gold pipeline on Databricks with data-quality testing, a PK/FK model
+  in PostgreSQL 17 (Lakebase), an AI/BI dashboard and an MLflow model for high-defect batches.

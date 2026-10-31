@@ -1,0 +1,7 @@
+# Notebooks run on Databricks (Serverless, environment version 6).
+# PySpark, Delta Lake, pandas, numpy and databricks-sdk are provided by the runtime.
+# The packages below are installed inside the notebooks via %pip.
+pg8000            # Gold_Predictive: PostgreSQL (Lakebase) driver; psycopg does not work on serverless
+mlflow>=2.14      # ML_Predictive
+scikit-learn      # ML_Predictive
+databricks-sdk    # Gold / Dashboard / Setup_Workflow / Reset_Demo (pre-installed on Databricks)

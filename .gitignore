@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Databricks
+.databricks/
+*.dbc
+checkpoints/
+_checkpoint*/
+
+# MLflow (local runs)
+mlruns/
+mlartifacts/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Office temp files
+~$*
